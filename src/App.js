@@ -3,6 +3,7 @@ import "./App.css";
 import personalData from "./personal_data.json";
 import { Grid } from "@material-ui/core";
 import PplCard from "./components/PplCard";
+import Eye from "./components/Eye";
 
 function App() {
   const [users, setUsers] = useState([]);
@@ -24,7 +25,14 @@ function App() {
   return (
     <div className='App'>
       <h3>Responsive Material UI Layout</h3>
+
       <Grid container spacing={10} style={{ padding: "24px" }}>
+        <Grid item xs={12} sm={6} md={4} lg={4} xl={3} justify='center'>
+          <div className='edu_title'>EDUCATION</div>
+          <div className='eye_container'>
+            <Eye />
+          </div>
+        </Grid>
         {users.map((user) => (
           <Grid key={user.id} item xs={12} sm={6} md={4} lg={4} xl={3}>
             <PplCard
