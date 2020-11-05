@@ -81,3 +81,4 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 ### Dependencies
 
 1. Material-UI
+2. Moment.JS

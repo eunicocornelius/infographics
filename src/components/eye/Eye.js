@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './Eye.css';
-import pupil from '../../assets/images/pupil.png';
-import eyelid from '../../assets/images/eye.png';
+import Pupil from '../../assets/images/pupil.png';
+import Eyelid from '../../assets/images/eye.png';
 
 class Eye extends Component {
   componentDidMount() {
@@ -38,10 +38,10 @@ class Eye extends Component {
   render() {
     return (
       <div className='eyes'>
-        <img className='eyelid' src={eyelid} />
+        <img className='eyelid' src={Eyelid} />
         <div className='eye'>
           <div className='ball'>
-            <img className='pupil' src={pupil} />
+            <img className='pupil' src={Pupil} />
           </div>
         </div>
       </div>
