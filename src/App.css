@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  padding: 0px 50px 0px 50px;
 }
 
 .App-logo {
@@ -36,7 +37,7 @@
 }
 
 .edu_title {
-  font-family: "The Wanters";
+  font-family: 'The Wanters';
   font-size: 3rem;
   color: #f49275;
   text-shadow: 4px 4px black;
@@ -53,9 +54,24 @@
 }
 
 @font-face {
-  font-family: "The Wanters";
+  font-family: 'The Wanters';
   font-style: normal;
   font-weight: 400;
-  src: local("The Wanters"),
-    url(./assets/fonts/TheWanters.ttf) format("truetype");
+  src: local('The Wanters'),
+    url(./assets/fonts/TheWanters.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Broadsheet Bubble';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Broadsheet Bubble'),
+    url(./assets/fonts/BroadsheetBubble.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Chenier';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Chenier'), url(./assets/fonts/Chenier.ttf) format('truetype');
 }
