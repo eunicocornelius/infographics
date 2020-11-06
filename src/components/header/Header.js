@@ -1,5 +1,5 @@
 import React from 'react';
-import { Grid } from '@material-ui/core';
+import { Grid, Hidden } from '@material-ui/core';
 import FadeCarousel from '../fade-carousel/FadeCarousel';
 import LocalTime from '../local-time/LocalTime';
 import './Header.css';
@@ -34,6 +34,56 @@ const Header = (props) => {
         <Grid item xs={12} md={6}>
           <LocalTime />
         </Grid>
+        <Hidden mdUp='hide'>
+          <Grid
+            container
+            xs={12}
+            style={{
+              fontFamily: 'Old Newspaper',
+              background: '#f49275',
+              '&:hover': { background: 'black' },
+              marginLeft: '4px',
+              marginRight: '4px',
+            }}
+          >
+            <Grid
+              item
+              xs={4}
+              style={{
+                justifyContent: 'center',
+                display: 'flex',
+              }}
+            >
+              <a href='https://github.com/eunicocornelius/' target='_blank'>
+                &diams; Github &diams;
+              </a>
+            </Grid>
+            <Grid
+              item
+              xs={4}
+              style={{ justifyContent: 'center', display: 'flex' }}
+            >
+              <a
+                href='https://www.linkedin.com/in/eunico-cornelius/'
+                target='_blank'
+              >
+                &diams; LinkedIn &diams;
+              </a>
+            </Grid>
+            <Grid
+              item
+              xs={4}
+              style={{ justifyContent: 'center', display: 'flex' }}
+            >
+              <a
+                href='https://www.codewars.com/users/eunico.cs'
+                target='_blank'
+              >
+                &diams; Codewars &diams;
+              </a>
+            </Grid>
+          </Grid>
+        </Hidden>
       </Grid>
     </div>
   );

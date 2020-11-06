@@ -12,7 +12,7 @@ const useStyles = makeStyles((theme) => ({
   },
   local_time: {
     fontFamily: 'Bungler',
-    fontSize: '4vw',
+    fontSize: '3.5vw',
     paddingLeft: '0vw',
     paddingRight: '0vw',
     [theme.breakpoints.down('xs')]: {
@@ -28,9 +28,9 @@ const useStyles = makeStyles((theme) => ({
     paddingLeft: '1vw',
     paddingRight: '1vw',
     [theme.breakpoints.down('xs')]: {
-      fontSize: '7vh;',
-      paddingLeft: '2vh',
-      paddingRight: '2vh',
+      fontSize: '6vh;',
+      paddingLeft: '0.5vh',
+      paddingRight: '0.5vh',
     },
   },
   image: {
@@ -61,7 +61,7 @@ const useStyles = makeStyles((theme) => ({
     fontSize: '.7vw',
     width: '100%',
     height: '100%',
-    [theme.breakpoints.down('xs')]: {
+    [theme.breakpoints.down('md')]: {
       minWidth: '0vh',
       margin: '0',
       padding: '.3vh .1vh .3vh .1vh',

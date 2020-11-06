@@ -92,3 +92,11 @@
   src: local('Bungler Light'),
     url(./assets/fonts/BunglerLight.ttf) format('truetype');
 }
+
+@font-face {
+  font-family: 'Old Newspaper';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Old Newspaper'),
+    url(./assets/fonts/OldNewspaper.ttf) format('truetype');
+}
