@@ -10,16 +10,16 @@ const Header = (props) => {
       <Grid container spacing={1}>
         <Grid item xs={12} md={12}>
           <div className='line'>
-            <hr />
+            <hr className='double' />
             <p className='hr_the'></p>
-            <hr />
+            <hr className='double' />
           </div>
           <div className='title'>
             <p className='header_title'>CORNELIUS CHRONICLES</p>
           </div>
           <div className='line'>
-            <hr />
-            <hr />
+            <hr className='double' />
+            <hr className='double' />
           </div>
         </Grid>
         <Grid item xs={12} md={6}>
@@ -34,7 +34,7 @@ const Header = (props) => {
         <Grid item xs={12} md={6}>
           <LocalTime />
         </Grid>
-        <Hidden mdUp='hide'>
+        <Hidden lgUp='hide'>
           <Grid
             container
             xs={12}
@@ -44,6 +44,7 @@ const Header = (props) => {
               '&:hover': { background: 'black' },
               marginLeft: '4px',
               marginRight: '4px',
+              marginBottom: '2vw',
             }}
           >
             <Grid

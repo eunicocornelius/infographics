@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  padding: 0px 50px 0px 50px;
+  padding: 0px 5vw 0px 5vw;
 }
 
 .App-logo {
@@ -36,6 +36,12 @@
   transform: translateX(15%);
 }
 
+hr.profile {
+  border: 0;
+  border-top: 2px solid black;
+  margin: 0.1vw 1vw 0.5vw 0;
+}
+
 .edu_title {
   font-family: 'The Wanters';
   font-size: 3rem;
@@ -44,7 +50,7 @@
   -webkit-text-stroke: 2px black;
 }
 
-/* Fonts */
+/* True Type Fonts */
 
 @keyframes App-logo-spin {
   from {
@@ -99,4 +105,30 @@
   font-weight: 400;
   src: local('Old Newspaper'),
     url(./assets/fonts/OldNewspaper.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Vintage Party';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Vintage Party'),
+    url(./assets/fonts/VintageParty.ttf) format('truetype');
+}
+
+/* Open Type Fonts */
+
+@font-face {
+  font-family: 'Vintage Avalanche';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Vintage Avalanche'),
+    url(./assets/fonts/VintageAvalanche.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'Vintage Avalanche Black';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Vintage Avalanche Black'),
+    url(./assets/fonts/VintageAvalancheBlack.otf) format('opentype');
 }
