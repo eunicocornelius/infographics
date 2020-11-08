@@ -23,7 +23,7 @@ const useStyles = makeStyles((theme) => ({
   },
   time: {
     fontFamily: 'Bungler Light',
-    fontSize: '9vw',
+    fontSize: '8vw',
     marginTop: '-1.5%',
     paddingLeft: '1vw',
     paddingRight: '1vw',

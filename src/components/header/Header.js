@@ -37,7 +37,6 @@ const Header = (props) => {
         <Hidden lgUp='hide'>
           <Grid
             container
-            xs={12}
             style={{
               fontFamily: 'Old Newspaper',
               background: '#f49275',

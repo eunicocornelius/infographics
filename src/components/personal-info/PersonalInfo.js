@@ -8,8 +8,11 @@ const useStyles = makeStyles((theme) => ({
     position: 'relative',
     paddingTop: '80%',
     background: '#f49275',
-    marginRight: { md: 2.5 },
+    marginRight: '1.5vw',
     border: '3px solid',
+    [theme.breakpoints.down('sm')]: {
+      marginRight: '0',
+    },
     [theme.breakpoints.down('xs')]: {
       border: '2px solid',
     },
