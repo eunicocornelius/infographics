@@ -34,7 +34,7 @@ const Header = (props) => {
         <Grid item xs={12} md={6}>
           <LocalTime />
         </Grid>
-        <Hidden lgUp='hide'>
+        <Hidden lgUp={true}>
           <Grid
             container
             style={{

@@ -3,6 +3,7 @@ import './Body.css';
 import { Box } from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles';
 import MainInfo from '../main-info/MainInfo';
+import Skills from '../skills/Skills';
 import PropTypes from 'prop-types';
 
 const useStyles = makeStyles((theme) => ({
@@ -21,6 +22,7 @@ const Body = (props) => {
     <div>
       <Box className={classes.body}>
         <MainInfo />
+        <Skills />
       </Box>
     </div>
   );

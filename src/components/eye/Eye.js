@@ -15,7 +15,7 @@ class Eye extends Component {
     var x = (e.clientX * 100) / window.innerWidth + '%';
     var y = (e.clientY * 100) / window.innerHeight + '%';
 
-    console.log(e.clientX, e.clientX);
+    // console.log(e.clientX, e.clientX);
 
     balls[0].style.left = x;
     balls[0].style.top = y;

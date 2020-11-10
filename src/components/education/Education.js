@@ -7,7 +7,7 @@ import PropTypes from 'prop-types';
 const useStyles = makeStyles((theme) => ({
   outer: {
     position: 'relative',
-    paddingTop: '70%',
+    paddingTop: '71%',
     background: '#E9D7B0',
     marginRight: { md: 2.5 },
     border: '2px dotted ',
