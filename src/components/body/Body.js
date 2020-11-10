@@ -23,6 +23,7 @@ const Body = (props) => {
       <Box className={classes.body}>
         <MainInfo />
         <Skills />
+        <hr className='body_divider' />
       </Box>
     </div>
   );

@@ -21,7 +21,6 @@ const useStyles = makeStyles((theme) => ({
   },
   inner: {
     position: 'absolute',
-    padding: '2%',
     top: 0,
     left: 0,
     bottom: 0,

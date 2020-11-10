@@ -7,8 +7,6 @@ const useStyles = makeStyles((theme) => ({
   outer: {
     position: 'relative',
     paddingTop: '70%',
-    background: '#f49275',
-    border: '3px solid',
     [theme.breakpoints.down('sm')]: {
       marginRight: '0',
     },
@@ -18,18 +16,18 @@ const useStyles = makeStyles((theme) => ({
   },
   inner: {
     position: 'absolute',
-    padding: '2%',
     top: 0,
     left: 0,
     bottom: 0,
     right: 0,
   },
   title: {
-    color: '#F4DFC0',
-    fontFamily: 'Broadsheet Bubble',
-    fontSize: '2vw',
-    WebkitTextStroke: '2px black',
-    height: '15%',
+    color: '#f49275',
+    fontFamily: 'Market Deco',
+    fontSize: '5vw',
+    textShadow: '-3px 3px 1px #000',
+    height: '20%',
+    WebkitTextStroke: '1px black',
     [theme.breakpoints.down('sm')]: {
       fontSize: '5vw',
       WebkitTextStroke: '3px black',
@@ -39,6 +37,14 @@ const useStyles = makeStyles((theme) => ({
       WebkitTextStroke: '2px black',
     },
   },
+  flag: {
+    fontFamily: 'The Black Box',
+    fontSize: '3vw',
+  },
+  skills: {
+    border: '2px solid #000',
+    height: '80%',
+  },
 }));
 
 const SkillsCollection = (props) => {
@@ -46,7 +52,13 @@ const SkillsCollection = (props) => {
   return (
     <div>
       <Box className={classes.outer}>
-        <Box className={classes.inner}></Box>
+        <Box className={classes.inner}>
+          <Box className={classes.title}>A COLLECTION OF SKILLS</Box>
+          {/* <Box className={classes.flag}></Box> */}
+          <Box className={classes.skills}>
+            <Box className={classes.skill}>REACT NATIVE</Box>
+          </Box>
+        </Box>
       </Box>
     </div>
   );
