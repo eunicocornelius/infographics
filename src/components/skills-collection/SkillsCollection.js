@@ -1,6 +1,7 @@
 import React from 'react';
 import { Box, Grid } from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles';
+import SkillItem from '../skill-item/SkillItem';
 import PropTypes from 'prop-types';
 
 const useStyles = makeStyles((theme) => ({
@@ -47,7 +48,8 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-const SkillsCollection = (props) => {
+// TODO #2: ADD INFO USING ARRAY NOT MANUALY
+const SkillsCollection = ({ skills }) => {
   const classes = useStyles();
   return (
     <div>
@@ -56,7 +58,7 @@ const SkillsCollection = (props) => {
           <Box className={classes.title}>A COLLECTION OF SKILLS</Box>
           {/* <Box className={classes.flag}></Box> */}
           <Box className={classes.skills}>
-            <Box className={classes.skill}>REACT NATIVE</Box>
+            <SkillItem skills={skills} />
           </Box>
         </Box>
       </Box>

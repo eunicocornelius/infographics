@@ -1,75 +1,110 @@
 {
-    "fullname": "Eunico Cornelius",
-    "email": "eunico.cornelius@gmail.com",
-    "github": "https://github.com/eunicocornelius/",
-    "age": "23",
-    "languages": ["Indonesian", "English", "German"],
-    "dob": "864691200",
-    "pob": "Jakarta",
-    "status": "Hiatus",
-    "education": [
-        {
-            "name": "B.S.Information Technology",
-            "description": "Swiss German University, Indonesia Some Subjects: Database, OOP, AI Software Engineering,Web Systems and Technology. GPA: 3.5/4.0"
-        },
-        {
-            "name": "B.Eng Engineering Management",
-            "description": "Fachochschule Sudwestfalen, Iserlohn, Germany."
-        }
-    ],
-    "skills":[{
-            "name": "React Native",
-            "description": "Created health app for stress relief using meditation ball.",
-            "image": "./assets/images/react_native.png",
-            "category": "frontend"
-        },
-        {
-            "name": "React JS",
-            "description": "Finished ReactJS basic concepts. Created Todo List and TicTacToe game. In need of work experience.",
-            "image": "./assets/images/react_js.png",
-            "category": "frontend"
-        },
-        {
-            "name": "Vue JS",
-            "description": "Used with Quasar for Front-end development on Cognixy. Also integrated with ApexCharts to create dashboards.",
-            "image": "./assets/images/vue_js.png",
-            "category": "frontend"
-        },
-        {
-            "name": "JavaScript",
-            "description": "Daily consumption while in Uni and still used until now. Created multiple projects and modules with this.",
-            "image": "./assets/images/js.png",
-            "category": "frontend"
-        },
-        {
-            "name": "Flutter",
-            "description": "Created world time app that can change backgrounds depending on the current time.",
-            "image": "./assets/images/flutter.png",
-            "category": "frontend"
-        },
-        {
-            "name": "HTML + CSS",
-            "description": "Always used for multiple purposes in various projects.",
-            "image": "./assets/images/html_css.png",
-            "category": "frontend"
-        }],
-    "professional_experience":[{
-        "name": "Seriotec GmbH",
-        "location": "Munich, Germany",
-        "position": "Fullstack Developer Intern",
-        "duration": "March 2018 - August 2018",
-        "subctitle": "Have experience in working in an agile environment",
-        "description": ["Built and optimized the front-end features for the company website using HTML/CSS, PHP, JS -- https://Yamdu.com.",
-            "Developed live newsfeed feature for the company, displaying recent news and other web-app information -- https://Deinkinoticket.de.",
-            "Created and trained a chatbot in Facebook Messenger that allows customers to purchase cinema tickets via Facebook."]
+  "fullname": "Eunico Cornelius",
+  "email": "eunico.cornelius@gmail.com",
+  "github": "https://github.com/eunicocornelius/",
+  "age": "23",
+  "languages": ["Indonesian", "English", "German"],
+  "dob": "864691200",
+  "pob": "Jakarta",
+  "status": "Hiatus",
+  "education": [
+    {
+      "name": "B.S.Information Technology",
+      "description": "Swiss German University, Indonesia Some Subjects: Database, OOP, AI Software Engineering,Web Systems and Technology. GPA: 3.5/4.0"
     },
     {
-        "name": "PT. Indocement Tunggal Prakarsa Tbk",
-        "location": "Jakarta, Indonesia",
-        "position": "Web Developer Intern",
-        "duration": "November 2016 - February 2017",
-        "subctitle": "Have experience in working in a national wide company",
-        "description": ["Updated front-end of factory monitoring dashboard with ASP.NET / C# / SignalR improving supervision efficiency for 50+ factories.",
-           "Created a new chat feature for the factory dashboard, enabling factory supervisors to communicate with each other more effectively."]
-       }]
+      "name": "B.Eng Engineering Management",
+      "description": "Fachochschule Sudwestfalen, Iserlohn, Germany."
+    }
+  ],
+  "skills": [
+    {
+      "id": "1",
+      "name": "React Native",
+      "description": "Created health app for stress relief using meditation ball.",
+      "image": "./assets/images/react_native.png",
+      "category": "frontend"
+    },
+    {
+      "id": "2",
+      "name": "React JS",
+      "description": "Finished ReactJS basic concepts. Created Todo List and TicTacToe game. In need of work experience.",
+      "image": "./assets/images/react_js.png",
+      "category": "frontend"
+    },
+    {
+      "id": "3",
+      "name": "Vue JS",
+      "description": "Used with Quasar for Front-end development on Cognixy. Also integrated with ApexCharts to create dashboards.",
+      "image": "./assets/images/vue_js.png",
+      "category": "frontend"
+    },
+    {
+      "id": "4",
+      "name": "JavaScript",
+      "description": "Daily consumption while in Uni and still used until now. Created multiple projects and modules with this.",
+      "image": "./assets/images/js.png",
+      "category": "frontend"
+    },
+    {
+      "id": "5",
+      "name": "Flutter",
+      "description": "Created world time app that can change backgrounds depending on the current time.",
+      "image": "./assets/images/flutter.png",
+      "category": "frontend"
+    },
+    {
+      "id": "6",
+      "name": "HTML + CSS",
+      "description": "Always used for multiple purposes in various projects.",
+      "image": "./assets/images/html_css.png",
+      "category": "frontend"
+    },
+    {
+      "id": "7",
+      "name": "MongoDB",
+      "description": "Always used for multiple purposes in various projects.",
+      "image": "./assets/images/html_css.png",
+      "category": "backend"
+    },
+    {
+      "id": "8",
+      "name": "Docker",
+      "description": "Always used for multiple purposes in various projects.",
+      "image": "./assets/images/html_css.png",
+      "category": "dev-ops"
+    },
+    {
+      "id": "9",
+      "name": "AdobeXD",
+      "description": "Always used for multiple purposes in various projects.",
+      "image": "./assets/images/html_css.png",
+      "category": "others"
+    }
+  ],
+  "professional_experience": [
+    {
+      "name": "Seriotec GmbH",
+      "location": "Munich, Germany",
+      "position": "Fullstack Developer Intern",
+      "duration": "March 2018 - August 2018",
+      "subctitle": "Have experience in working in an agile environment",
+      "description": [
+        "Built and optimized the front-end features for the company website using HTML/CSS, PHP, JS -- https://Yamdu.com.",
+        "Developed live newsfeed feature for the company, displaying recent news and other web-app information -- https://Deinkinoticket.de.",
+        "Created and trained a chatbot in Facebook Messenger that allows customers to purchase cinema tickets via Facebook."
+      ]
+    },
+    {
+      "name": "PT. Indocement Tunggal Prakarsa Tbk",
+      "location": "Jakarta, Indonesia",
+      "position": "Web Developer Intern",
+      "duration": "November 2016 - February 2017",
+      "subctitle": "Have experience in working in a national wide company",
+      "description": [
+        "Updated front-end of factory monitoring dashboard with ASP.NET / C# / SignalR improving supervision efficiency for 50+ factories.",
+        "Created a new chat feature for the factory dashboard, enabling factory supervisors to communicate with each other more effectively."
+      ]
+    }
+  ]
 }

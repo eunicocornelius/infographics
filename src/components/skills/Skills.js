@@ -3,6 +3,7 @@ import { Grid } from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles';
 import SkillsCollection from '../skills-collection/SkillsCollection';
 import SkillsCategory from '../skills-category/SkillsCategory';
+import personalData from '../../personal_data.json';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -24,10 +25,10 @@ const Skills = (props) => {
     <div>
       <Grid className={classes.root} container>
         <Grid item xs={12} md={8}>
-          <SkillsCollection />
+          <SkillsCollection skills={personalData.skills} />
         </Grid>
         <Grid item xs={12} md={4}>
-          <SkillsCategory />
+          <SkillsCategory skills={personalData.skills} />
         </Grid>
       </Grid>
     </div>

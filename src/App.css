@@ -48,6 +48,12 @@ hr.body_divider {
   margin: 0 20px 0 20px;
 }
 
+hr.category_divider {
+  border: 0;
+  border-top: 3px solid #f49275;
+  margin: 1vw 1vw 1vw 1vw;
+}
+
 .edu_title {
   font-family: 'The Wanters';
   font-size: 3rem;
@@ -127,6 +133,14 @@ hr.body_divider {
   font-weight: 400;
   src: local('Market Deco'),
     url(./assets/fonts/MarketDeco.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Sherlock Vintage';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Sherlock Vintage'),
+    url(./assets/fonts/SherlockVintage.ttf) format('truetype');
 }
 
 /* Open Type Fonts */
