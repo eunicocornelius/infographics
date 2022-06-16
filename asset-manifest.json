@@ -1,25 +1,28 @@
 {
   "files": {
-    "main.css": "/infographics/static/css/main.7dbf63d3.chunk.css",
-    "main.js": "/infographics/static/js/main.b48001ed.chunk.js",
-    "main.js.map": "/infographics/static/js/main.b48001ed.chunk.js.map",
+    "main.css": "/infographics/static/css/main.b1ba0e07.chunk.css",
+    "main.js": "/infographics/static/js/main.385d8afa.chunk.js",
+    "main.js.map": "/infographics/static/js/main.385d8afa.chunk.js.map",
     "runtime-main.js": "/infographics/static/js/runtime-main.2a4a3b5f.js",
     "runtime-main.js.map": "/infographics/static/js/runtime-main.2a4a3b5f.js.map",
-    "static/js/2.5f9be8b9.chunk.js": "/infographics/static/js/2.5f9be8b9.chunk.js",
-    "static/js/2.5f9be8b9.chunk.js.map": "/infographics/static/js/2.5f9be8b9.chunk.js.map",
+    "static/js/2.572a7644.chunk.js": "/infographics/static/js/2.572a7644.chunk.js",
+    "static/js/2.572a7644.chunk.js.map": "/infographics/static/js/2.572a7644.chunk.js.map",
     "index.html": "/infographics/index.html",
-    "precache-manifest.fa7250d7ae1d4f2ccabfb196a263c2c5.js": "/infographics/precache-manifest.fa7250d7ae1d4f2ccabfb196a263c2c5.js",
+    "precache-manifest.ac55830f7ac2840a6d233fc36698ded5.js": "/infographics/precache-manifest.ac55830f7ac2840a6d233fc36698ded5.js",
     "service-worker.js": "/infographics/service-worker.js",
-    "static/css/main.7dbf63d3.chunk.css.map": "/infographics/static/css/main.7dbf63d3.chunk.css.map",
-    "static/js/2.5f9be8b9.chunk.js.LICENSE.txt": "/infographics/static/js/2.5f9be8b9.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/infographics/static/media/TheWanters.942b9731.ttf",
+    "static/css/main.b1ba0e07.chunk.css.map": "/infographics/static/css/main.b1ba0e07.chunk.css.map",
+    "static/js/2.572a7644.chunk.js.LICENSE.txt": "/infographics/static/js/2.572a7644.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/infographics/static/media/VintageParty.2be5688e.ttf",
     "static/media/eye.png": "/infographics/static/media/eye.6549f117.png",
-    "static/media/pupil.png": "/infographics/static/media/pupil.37d8bf34.png"
+    "static/media/fish.png": "/infographics/static/media/fish.1caef1e0.png",
+    "static/media/fruit.png": "/infographics/static/media/fruit.c5d849c7.png",
+    "static/media/pupil.png": "/infographics/static/media/pupil.37d8bf34.png",
+    "static/media/video_profile.mp4": "/infographics/static/media/video_profile.d123d9b1.mp4"
   },
   "entrypoints": [
     "static/js/runtime-main.2a4a3b5f.js",
-    "static/js/2.5f9be8b9.chunk.js",
-    "static/css/main.7dbf63d3.chunk.css",
-    "static/js/main.b48001ed.chunk.js"
+    "static/js/2.572a7644.chunk.js",
+    "static/css/main.b1ba0e07.chunk.css",
+    "static/js/main.385d8afa.chunk.js"
   ]
 }
